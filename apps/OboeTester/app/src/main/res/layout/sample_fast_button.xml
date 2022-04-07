@@ -1,9 +1,9 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/com.mobileer.oboetester"
+    xmlns:app="http://schemas.android.com/apk/res/com.smule.singandroid"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.mobileer.oboetester.FastButton
+    <com.smule.singandroid.FastButton
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:background="#ccc"

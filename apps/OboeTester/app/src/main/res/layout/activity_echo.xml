@@ -2,7 +2,7 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.mobileer.oboetester.EchoActivity"
+    tools:context="com.smule.singandroid.EchoActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
@@ -15,20 +15,20 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         >
 
-        <com.mobileer.oboetester.StreamConfigurationView
+        <com.smule.singandroid.StreamConfigurationView
             android:id="@+id/inputStreamConfiguration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal" />
 
-        <com.mobileer.oboetester.InputMarginView
+        <com.smule.singandroid.InputMarginView
             android:id="@+id/input_margin_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center" />
 
-        <com.mobileer.oboetester.StreamConfigurationView
+        <com.smule.singandroid.StreamConfigurationView
             android:id="@+id/outputStreamConfiguration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

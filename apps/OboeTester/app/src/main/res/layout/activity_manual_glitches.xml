@@ -8,29 +8,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.mobileer.oboetester.ManualGlitchActivity">
+    tools:context="com.smule.singandroid.ManualGlitchActivity">
 
-    <com.mobileer.oboetester.StreamConfigurationView
+    <com.smule.singandroid.StreamConfigurationView
         android:id="@+id/inputStreamConfiguration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal" />
 
-    <com.mobileer.oboetester.InputMarginView
+    <com.smule.singandroid.InputMarginView
         android:id="@+id/input_margin_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center" />
 
-    <com.mobileer.oboetester.StreamConfigurationView
+    <com.smule.singandroid.StreamConfigurationView
         android:id="@+id/outputStreamConfiguration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal" />
 
-    <com.mobileer.oboetester.BufferSizeView
+    <com.smule.singandroid.BufferSizeView
         android:id="@+id/buffer_size_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
         android:textSize="14sp"
         android:textStyle="bold" />
 
-    <com.mobileer.oboetester.WaveformView
+    <com.smule.singandroid.WaveformView
         android:id="@+id/waveview_audio"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" />

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mobileer.oboetester"
+    package="com.smule.singandroid"
     android:versionCode="57"
     android:versionName="2.2.2">
     <!-- versionCode and versionName also have to be updated in build.gradle -->
@@ -37,7 +37,7 @@
         android:theme="@style/AppTheme"
         android:requestLegacyExternalStorage="true">
         <activity
-            android:name=".MainActivity"
+            android:name="com.smule.singandroid.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:screenOrientation="portrait">
@@ -49,65 +49,65 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TestOutputActivity"
+            android:name="com.smule.singandroid.TestOutputActivity"
             android:label="@string/title_activity_test_output"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TestInputActivity"
+            android:name="com.smule.singandroid.TestInputActivity"
             android:label="@string/title_activity_test_input"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TapToToneActivity"
+            android:name="com.smule.singandroid.TapToToneActivity"
             android:label="@string/title_activity_output_latency"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RecorderActivity"
+            android:name="com.smule.singandroid.RecorderActivity"
             android:label="@string/title_activity_recorder"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".EchoActivity"
+            android:name="com.smule.singandroid.EchoActivity"
             android:label="@string/title_activity_echo"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RoundTripLatencyActivity"
+            android:name="com.smule.singandroid.RoundTripLatencyActivity"
             android:label="@string/title_activity_rt_latency"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ManualGlitchActivity"
+            android:name="com.smule.singandroid.ManualGlitchActivity"
             android:label="@string/title_activity_glitches"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AutomatedGlitchActivity"
+            android:name="com.smule.singandroid.AutomatedGlitchActivity"
             android:label="@string/title_activity_auto_glitches"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TestDisconnectActivity"
+            android:name="com.smule.singandroid.TestDisconnectActivity"
             android:label="@string/title_test_disconnect"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DeviceReportActivity"
+            android:name="com.smule.singandroid.DeviceReportActivity"
             android:label="@string/title_report_devices"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TestDataPathsActivity"
+            android:name="com.smule.singandroid.TestDataPathsActivity"
             android:label="@string/title_data_paths"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ExtraTestsActivity"
+            android:name="com.smule.singandroid.ExtraTestsActivity"
             android:exported="true"
             android:label="@string/title_extra_tests" />
 
         <activity
-            android:name=".ExternalTapToToneActivity"
+            android:name="com.smule.singandroid.ExternalTapToToneActivity"
             android:label="@string/title_external_tap"
             android:exported="true" />
         <activity
-            android:name=".TestPlugLatencyActivity"
+            android:name="com.smule.singandroid.TestPlugLatencyActivity"
             android:label="@string/title_plug_latency"
             android:exported="true" />
 
         <service
-            android:name=".MidiTapTester"
+            android:name="com.smule.singandroid.MidiTapTester"
             android:permission="android.permission.BIND_MIDI_DEVICE_SERVICE">
             <intent-filter>
                 <action android:name="android.media.midi.MidiDeviceService" />
